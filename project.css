@@ -1,0 +1,244 @@
+/* CSS cho dự án 1: Trang web cá nhân */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding: 20px 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+section {
+  padding: 20px;
+}
+
+footer {
+  background-color: #35424a;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+footer p {
+  margin: 0;
+}
+h1,
+h2 {
+  color: #333333;
+}
+p {
+  line-height: 1.6;
+  color: #666666;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #e8491d;
+  color: #ffffff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #cf3c13;
+}
+.form-group {
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 5px;
+}
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #e8491d;
+  outline: none;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+/* Kết thúc CSS cho dự án 1 */
+
+/* CSS cho dự án 2: Trang web blog cá nhân */
+body {
+  font-family: "Georgia", serif;
+  background-color: #fff8e1;
+  color: #333333;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #ff6f61;
+  color: #ffffff;
+  padding: 30px 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 20px;
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+article {
+  padding: 20px;
+  border-bottom: 1px solid #cccccc;
+}
+article h2 {
+  color: #ff6f61;
+}
+article p {
+  line-height: 1.8;
+  color: #555555;
+}
+footer {
+  background-color: #ff6f61;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+footer p {
+  margin: 0;
+}
+.container {
+  width: 75%;
+  margin: auto;
+  overflow: hidden;
+}
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+/* Kết thúc CSS cho dự án 2 */
+
+/* CSS cho dự án 3: Trang web cửa hàng trực tuyến */
+body {
+  font-family: "Tahoma", sans-serif;
+  background-color: #e0f7fa;
+  color: #212121;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: #00796b;
+  color: #ffffff;
+  padding: 25px 0;
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+nav ul li {
+  display: inline;
+  margin: 0 25px;
+}
+nav ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+.product {
+  border: 1px solid #cccccc;
+  padding: 15px;
+  margin: 15px;
+  text-align: center;
+  background-color: #ffffff;
+}
+.product h3 {
+  color: #00796b;
+}
+.product p {
+  color: #424242;
+}
+footer {
+  background-color: #00796b;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+footer p {
+  margin: 0;
+}
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 95%;
+  }
+  nav ul li {
+    display: block;
+    margin: 10px 0;
+  }
+}
+/* Kết thúc CSS cho dự án 3 */
